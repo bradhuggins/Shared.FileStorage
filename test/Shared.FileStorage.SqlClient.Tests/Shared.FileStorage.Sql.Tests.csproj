@@ -7,6 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="BradHuggins.Shared.FileStorage" Version="0.3.0" />
     <PackageReference Include="System.Data.SqlClient" Version="4.8.2" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.7.1" />
     <PackageReference Include="MSTest.TestAdapter" Version="2.1.2" />
@@ -19,7 +20,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\src\Shared.FileStorage.SqlClient\Shared.FileStorage.Sql.csproj" />
-    <ProjectReference Include="..\..\src\Shared.FileStorage\Shared.FileStorage.csproj" />
     <ProjectReference Include="..\Shared.FileStorage.MockData\Shared.FileStorage.MockData.csproj" />
   </ItemGroup>
 </Project>

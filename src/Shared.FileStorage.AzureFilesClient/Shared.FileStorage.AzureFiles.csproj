@@ -4,8 +4,8 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <Authors>Brad Huggins</Authors>
     <Company>Brad Huggins</Company>
-    <AssemblyVersion>0.4.0.0</AssemblyVersion>
-    <Version>0.4.0</Version>
+    <AssemblyVersion>0.5.0.0</AssemblyVersion>
+    <Version>0.5.0</Version>
     <Description>Shared helper library for implementing file storage using Azure Files storage. Requires common/base library.</Description>
     <RepositoryUrl>https://github.com/bradhuggins/Shared.FileStorage</RepositoryUrl>
     <RepositoryType>GitHub</RepositoryType>
@@ -17,24 +17,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="readme.txt" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Content Include="readme.txt">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      <Pack>True</Pack>
-      <PackagePath></PackagePath>
-    </Content>
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="Azure.Storage.Files.Shares" Version="12.4.0" />
+    <PackageReference Include="BradHuggins.Shared.FileStorage" Version="0.3.0" />
     <PackageReference Include="Microsoft.Azure.Storage.File" Version="11.2.2" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\Shared.FileStorage\Shared.FileStorage.csproj" />
   </ItemGroup>
 
 </Project>

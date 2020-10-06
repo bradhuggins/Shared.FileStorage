@@ -7,6 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="BradHuggins.Shared.FileStorage" Version="0.3.0" />
     <PackageReference Include="Microsoft.Azure.Storage.File" Version="11.2.2" />
     <PackageReference Include="Azure.Storage.Files.Shares" Version="12.4.0" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.7.1" />
@@ -20,7 +21,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\src\Shared.FileStorage.AzureFilesClient\Shared.FileStorage.AzureFiles.csproj" />
-    <ProjectReference Include="..\..\src\Shared.FileStorage\Shared.FileStorage.csproj" />
     <ProjectReference Include="..\Shared.FileStorage.MockData\Shared.FileStorage.MockData.csproj" />
   </ItemGroup>
 </Project>
