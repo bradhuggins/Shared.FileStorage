@@ -1,0 +1,88 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30406.217
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shared.FileStorage", "src\Shared.FileStorage\Shared.FileStorage.csproj", "{FDFA5A45-3A99-4C2C-AA4C-B1E123041762}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shared.FileStorage.Native", "src\Shared.FileStorage.NativeClient\Shared.FileStorage.Native.csproj", "{86CFCF5A-AF84-4FA8-B34B-7715FF567CC8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shared.FileStorage.Sql", "src\Shared.FileStorage.SqlClient\Shared.FileStorage.Sql.csproj", "{A471D8A8-2A94-4446-AC62-5D96B755B0E4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shared.FileStorage.AzureFiles", "src\Shared.FileStorage.AzureFilesClient\Shared.FileStorage.AzureFiles.csproj", "{3A0F5841-8682-4CB5-8D33-7C61D0B856F2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shared.FileStorage.AzureFiles.Tests", "test\Shared.FileStorage.AzureFilesClient.Tests\Shared.FileStorage.AzureFiles.Tests.csproj", "{8C6447EB-4CE1-434E-B125-B1B6A48C764D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shared.FileStorage.Sql.Tests", "test\Shared.FileStorage.SqlClient.Tests\Shared.FileStorage.Sql.Tests.csproj", "{D47CD84C-DE8C-41E0-AD8B-394ABF1E2337}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shared.FileStorage.Native.Tests", "test\Shared.FileStorage.NativeClient.Tests\Shared.FileStorage.Native.Tests.csproj", "{69D4DCEE-A8FD-40B7-BE67-73609E50A7DD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{2A6A8C48-2AE6-4CD3-BC5F-C37C76CE02E7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{7152F9A8-3C37-4F23-93B6-28B69F06DBAE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6D328C15-1114-4CA1-9C16-EF56DFBDAEA3}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		CodeCoverage.runsettings = CodeCoverage.runsettings
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared.FileStorage.MockData", "test\Shared.FileStorage.MockData\Shared.FileStorage.MockData.csproj", "{51837859-F6D2-4D76-93BE-519D13DF9B94}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FDFA5A45-3A99-4C2C-AA4C-B1E123041762}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDFA5A45-3A99-4C2C-AA4C-B1E123041762}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDFA5A45-3A99-4C2C-AA4C-B1E123041762}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDFA5A45-3A99-4C2C-AA4C-B1E123041762}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86CFCF5A-AF84-4FA8-B34B-7715FF567CC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86CFCF5A-AF84-4FA8-B34B-7715FF567CC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86CFCF5A-AF84-4FA8-B34B-7715FF567CC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86CFCF5A-AF84-4FA8-B34B-7715FF567CC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A471D8A8-2A94-4446-AC62-5D96B755B0E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A471D8A8-2A94-4446-AC62-5D96B755B0E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A471D8A8-2A94-4446-AC62-5D96B755B0E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A471D8A8-2A94-4446-AC62-5D96B755B0E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A0F5841-8682-4CB5-8D33-7C61D0B856F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A0F5841-8682-4CB5-8D33-7C61D0B856F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A0F5841-8682-4CB5-8D33-7C61D0B856F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A0F5841-8682-4CB5-8D33-7C61D0B856F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C6447EB-4CE1-434E-B125-B1B6A48C764D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C6447EB-4CE1-434E-B125-B1B6A48C764D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C6447EB-4CE1-434E-B125-B1B6A48C764D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C6447EB-4CE1-434E-B125-B1B6A48C764D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D47CD84C-DE8C-41E0-AD8B-394ABF1E2337}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D47CD84C-DE8C-41E0-AD8B-394ABF1E2337}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D47CD84C-DE8C-41E0-AD8B-394ABF1E2337}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D47CD84C-DE8C-41E0-AD8B-394ABF1E2337}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69D4DCEE-A8FD-40B7-BE67-73609E50A7DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69D4DCEE-A8FD-40B7-BE67-73609E50A7DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69D4DCEE-A8FD-40B7-BE67-73609E50A7DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69D4DCEE-A8FD-40B7-BE67-73609E50A7DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51837859-F6D2-4D76-93BE-519D13DF9B94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51837859-F6D2-4D76-93BE-519D13DF9B94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51837859-F6D2-4D76-93BE-519D13DF9B94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51837859-F6D2-4D76-93BE-519D13DF9B94}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FDFA5A45-3A99-4C2C-AA4C-B1E123041762} = {2A6A8C48-2AE6-4CD3-BC5F-C37C76CE02E7}
+		{86CFCF5A-AF84-4FA8-B34B-7715FF567CC8} = {2A6A8C48-2AE6-4CD3-BC5F-C37C76CE02E7}
+		{A471D8A8-2A94-4446-AC62-5D96B755B0E4} = {2A6A8C48-2AE6-4CD3-BC5F-C37C76CE02E7}
+		{3A0F5841-8682-4CB5-8D33-7C61D0B856F2} = {2A6A8C48-2AE6-4CD3-BC5F-C37C76CE02E7}
+		{8C6447EB-4CE1-434E-B125-B1B6A48C764D} = {7152F9A8-3C37-4F23-93B6-28B69F06DBAE}
+		{D47CD84C-DE8C-41E0-AD8B-394ABF1E2337} = {7152F9A8-3C37-4F23-93B6-28B69F06DBAE}
+		{69D4DCEE-A8FD-40B7-BE67-73609E50A7DD} = {7152F9A8-3C37-4F23-93B6-28B69F06DBAE}
+		{51837859-F6D2-4D76-93BE-519D13DF9B94} = {7152F9A8-3C37-4F23-93B6-28B69F06DBAE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {41CDF61F-13C1-4CC4-B2FD-13AFA6E21919}
+	EndGlobalSection
+EndGlobal

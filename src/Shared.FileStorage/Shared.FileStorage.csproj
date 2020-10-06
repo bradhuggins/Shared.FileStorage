@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Brad Huggins</Authors>
+    <Company>Brad Huggins</Company>
+    <AssemblyVersion>0.4.0.0</AssemblyVersion>
+    <Version>0.4.0</Version>
+    <Description>Shared helper library for implementing file storage. Contains common/base functionality.</Description>
+  </PropertyGroup>
+
+</Project>
